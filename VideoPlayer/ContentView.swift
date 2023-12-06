@@ -10,7 +10,7 @@ import SwiftUI
 import AVKit
 struct ContentView: View {
     
-    var player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "MrChinBday", ofType: "MOV")!))
+    var player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "humbird03", ofType: "MOV")!))
     
     var body: some View {
         ZStack {
